@@ -1,0 +1,71 @@
+<!-- Author: Antonio Perea
+     proyectosantonioperea@gmail.com -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel y Tijeras</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- jQuery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- JS link -->
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <!-- Main Container-->
+    <div class="container">
+
+        <h2 class="title">Piedra Papel Tijeras</h2>
+
+        <!-- Button restart container-->
+        <div class="contain-restart-button">
+        <button id="restart-button"><a href="/"><img src="images/recargar.png" alt="recargar"></a></button>
+        </div>
+
+        <!-- Results container-->
+        <div class="results">
+            <!-- Players (user) container-->
+            <div class="players">
+                <h3>Tú</h3>
+                <p class="points" id="user-points">0</p>
+                <p class="result-images" id="user-image">
+                    <img class="image-ongame" src="images/Piedra.png" alt="Piedra">
+                </p>
+            </div>
+
+            <h3>VS</h3>
+
+            <!-- Players (PC) container-->
+            <div class="players">
+                <h3>PC</h3>
+                <p class="points" id="pc-points">0</p>
+                <p class="result-images" id="pc-image">
+                    <img class="image-ongame" src="images/Piedra.png" alt="Piedra">
+                </p>
+            </div>
+            
+
+        </div>
+
+        <!-- Text result container-->
+        <div class="contain-result-text">
+            <h3 class="result-text"></h3>
+        </div>
+
+        <h3 class="title-options">Elige una opción</h3>
+
+        <!-- User options container-->
+        <div class="options">
+            <img src="images/Piedra.png" alt="Piedra" id="rock">
+            <img src="images/Papel.png" alt="Papel" id="paper">
+            <img src="images/Tijeras.png" alt="Tijeras" id="scissors">
+        </div>
+    
+    <!-- End main container-->
+    </div>
+</body>
+</html>
