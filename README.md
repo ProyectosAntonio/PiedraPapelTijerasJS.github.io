@@ -1,7 +1,7 @@
 # PiedraPapelTijerasJS.github.io
 Famoso juego del piedra, papel y tijeras creado con JS puro.
 
-LINK: 
+<a href="https://proyectosantonio.github.io/PiedraPapelTijerasJS.github.io/">LINK HERE</a>
 
 <p>En el juego aparecen tres opciones que el usuario deberá de elegir con imágenes (piedra, papel y tijeras).</p>
 <p>Una vez el usuario eleccione una opción, automáticamente la maquina elegirá aleatoriamente otra opción.</p>
